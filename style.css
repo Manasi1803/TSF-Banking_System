@@ -1,0 +1,45 @@
+body{
+    font-family: Poppins;
+    margin: 0;
+    background-color: #a8d0e6;
+}
+.sect{
+    padding:50px;
+}
+.waves-effect{
+    margin-top: 30px;
+}
+.head{
+    top:0;
+    padding: 0.5px;
+    font-family: Alegreya Sans SC;
+    background: lightgray;
+}
+.footer{
+    background: lightgray;
+    margin-bottom: 0;
+    bottom: 0;
+    padding: 10px;
+}
+.info{
+    font-weight: 500;
+}
+.card.small{
+    background-color: blanchedalmond;
+    box-shadow: 0 0 0 1px #E2E9ED;
+    position: relative;
+    z-index: 0;
+    transition: 0.2s all;
+}
+.card.small:hover{
+    z-index: 1;
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+
+}
+.card.small.card-image
+{
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 30px;
+}
